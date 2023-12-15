@@ -1,0 +1,20 @@
+.button{
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 14px;
+    height: fit-content;
+    text-align: center;
+    transition-duration: .2s;
+}
+
+.btn-grad{
+    background: linear-gradient(135deg,#6004ff,#7f35ff 23.95%,#370097 60.11%,#8d4aff);
+    color: white;
+    border: 1px solid hsla(0,0%,100%,.2);
+}
+
+.btn-grad:hover{
+    background: linear-gradient(135deg,#6004ff,#20103b 23.95%,#370097 60.11%,#20103b);
+}
